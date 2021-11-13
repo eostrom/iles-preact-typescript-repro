@@ -1,0 +1,21 @@
+{
+  "name": "iles-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "iles dev --open",
+    "build": "iles build",
+    "preview": "vite preview --open --port 5050",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.5",
+    "iles": "^0.6.0",
+    "preact-render-to-string": "^5.1.19",
+    "typescript": "~4.3.5",
+    "vite": "^2.6.13",
+    "vue-tsc": "^0.3.0"
+  },
+  "dependencies": {
+    "preact": "^10.5.15"
+  }
+}
